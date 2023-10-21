@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="tests" name="Failed suite [Suite100]" guice-stage="DEVELOPMENT">
+  <test thread-count="4" parallel="tests" name="Test100(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="Tests.Testclass2">
+        <methods>
+          <include name="OngcPage"/>
+        </methods>
+      </class> <!-- Tests.Testclass2 -->
+    </classes>
+  </test> <!-- Test100(failed) -->
+  <test thread-count="4" parallel="tests" name="Test101(failed)">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="Tests.Testclass2">
+        <methods>
+          <include name="OngcPage"/>
+        </methods>
+      </class> <!-- Tests.Testclass2 -->
+    </classes>
+  </test> <!-- Test101(failed) -->
+</suite> <!-- Failed suite [Suite100] -->
