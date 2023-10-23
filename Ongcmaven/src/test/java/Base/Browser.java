@@ -6,10 +6,10 @@ import org.openqa.selenium.edge.EdgeDriver;
 
 public class Browser {
 	
-	public static WebDriver launchChrome()
+	public static WebDriver launchSafari()
 	{
-		System.setProperty("webdriver.chrome.driver","src\\test\\resources\\BrowserFiles\\chromedriver.exe");
-		WebDriver driver=new ChromeDriver();
+		System.setProperty("webdriver.safari.driver","src\\test\\resources\\BrowserFiles\\safaridriver.exe");
+		WebDriver driver=new safariDriver();
 		return driver;
 	}
 	
